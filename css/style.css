@@ -1,0 +1,655 @@
+html{
+  scroll-behavior: smooth;
+}
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+  background: black;
+ 
+
+
+}
+*{margin: 0; padding: 0; box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+a{ text-decoration: none; }
+a:hover{text-decoration: none;}
+li{list-style: none;}
+p{font-size: 0.9rem;
+line-height: 1.6;
+font-weight: 400;
+color: #606060;}
+.extra-div h2, .servicediv h2{
+  font-size: 1.8rem;
+  margin: 20px 0 15px 0;
+  font-weight: bold;
+  line-height: 1.1;
+  word-spacing: 4px;
+}
+
+i{
+  color: #2fccd0;
+}
+#loading{
+  /*position: fixed;*/
+  width: 100%;
+  height: 100vh;
+  background: #fff url('../images/730.gif') no-repeat center;
+  z-index: 99999;
+
+}
+/*************Preloader ends***************************/
+
+/*************Preloader starts***************************/
+
+/*************actual css starts***************************/
+.navbar-brand img{
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+.navbar-brand{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0px;
+}
+.navbar{
+  padding: 0.8em 0 !important;
+  background-color:  #333333 !important;
+}
+.nav-link{
+  padding-right: 50px !important;
+}
+.navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../Anand Tent House/Head.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.nav-item a{
+  color: #fcde75 !important;
+  font-weight: bold;
+  font-size: 2px !important;
+
+
+}
+
+.nav-item a h4{
+  color: #FFD700 !important;
+  font-weight: bold;
+  font-size: 20px !important;
+
+
+  }
+
+
+
+
+
+
+
+
+/*Image Slider*/
+.carousel-inner img{
+  width: 100%;
+  height: 100vh;
+}
+.caurosel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary{
+  background-color: #6648b1
+  border:1px solid #6648b1;
+}
+.btn-primary:hover{
+  background-color:#563d7c;
+  border: 1px solid #563d7c:;
+}
+
+/*********************extra header div start**************************/
+.header-extradiv{
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  text-align: center;
+}
+.header-extradiv h1{
+  font-family: 'Oswald',sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 600;
+  color: #FFD700!important;
+}
+
+.extra-div{
+  background: #ffffff;
+  border: medium none;
+  padding: 50px!important;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin-right: 82px;
+
+}
+
+
+.extra-div:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  transform: translateY(-20px);
+}
+/*********************extra header div end**************************/
+
+/*********************Our Services Start**************************/
+#services h1{
+  font-family: 'Oswald',sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 600;
+  color: #FFD700!important;
+} 
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 400px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #FFD700!important;
+  font-family: 'Oswald',sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*********************Our Services Ends**************************/  
+
+
+#IYF h1{
+  font-family: 'Oswald',sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 600;
+  color: #FFD700!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************Sample Portfolio starts**************************/
+
+#work h3{
+  font-family: 'Oswald',sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 600;
+  color: #FFD700!important; 
+}
+.row.no-gutters [class*=col-]{
+  padding-left: 0;
+  padding-right: 0;
+}
+.img-wrapper{
+  overflow: hidden;
+  background-color: white;
+  padding: 5px;
+}
+.img-wrapper img{
+  transition: transform .5s ease; 
+}
+.img-wrapper img:hover{
+  transform: scale(1.5);
+  cursor: zoom-in;
+
+}
+img{
+  width: 100%;
+  height: 400px ;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;  
+}
+
+
+/*********************Sample Portfolio end**************************/
+/*********************Enquiry Form starts**************************/
+
+.contactus{
+  width: 100%;
+    
+  padding: 80px 0;
+  position: relative;
+}
+
+.form-button button{
+  border: 1px solid #50d1c0;
+  border-radius:100px;  
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #50d1c0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  background: transparent;
+}
+.form-button button:hover{
+  color: #50d1c0;
+}
+form:hover .form-button button{
+  background: #ffffff;
+  color: #50d1c0;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+  font-size: 0.85rem;
+}
+
+
+/*********************Enquiry Form ends**************************/
+/*********************cONNECT US ON sOCIAL mEDIA starts**************************/
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook{
+  color: #3b5998
+}
+.fa-twitter{
+  color: #00aced
+}
+.fa-google-plus-g{
+  color: #dd4b39;
+}
+.fa-insta{
+  color: #517fa4;
+}
+.fa-youtube{
+  color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover;
+.fa-insta:hover;
+.fa-youtube:hover{
+  color: #d5d5d5d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************cONNECT US ON sOCIAL mEDIA ends**************************/
+
+/* footer section start */
+
+#footer{
+  background: #f7f7f7;
+    padding: 3rem;
+  /* padding-top: 5rem; */
+  padding-top: 7rem;
+    padding-bottom: 80px;
+  /*background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);*/  
+  background-color: #333333;
+}
+#footer2{
+  background: #f7f7f7;
+    padding: 3rem;
+    margin-top: 0px;
+  /* padding-top: 5rem; */
+  padding-top: 7rem;
+    padding-bottom: 80px;
+  background-image: url(../images/cards/v748-toon-111.png);
+}
+.logo-footer{
+  max-width: 180px;
+  height: 40%;
+}
+.social-links{
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+.footer-about h2{
+  color: #50d1c0;
+  font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-about p{
+  color: white;
+}
+.useful-link h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.social-links h2{
+  padding-bottom: 15px;
+  font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.social-links img{
+  padding-bottom: 25px;
+} 
+.social-icons{
+  /* display: flex;
+    gap: 3rem; */
+  display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  color: #777777;
+}
+.social-icons a{
+  /* font-size: 18px; */
+    /* background: #ffffff; */
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+  color: #82074a; */
+  /* margin-right: 18px; */
+  color: #50d1c0;
+}
+.social-icons a:hover{
+  color: #000;
+}
+.social-icons a i{
+  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+    color: #82074a;
+  font-size: 16px;
+  margin-right: 12px;
+}
+li{
+  list-style: none;
+}
+
+.useful-link img{
+  padding-bottom: 15px;
+}
+.use-links{
+  line-height: 32px;
+}
+.use-links li i{
+  font-size: 14px;
+    padding-right: 8px;
+    color: #898989;
+}
+.use-links li a{
+  
+    font-size: 15px;
+    font-weight: 500;
+  color: #50d1c0;
+}
+.use-links li a:hover{
+  color: #000;
+}
+.address h2{
+  padding-bottom: 15px;
+  font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.address img{
+  padding-bottom: 15px;
+}
+.address-links li a{
+  color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+  color: white;
+
+}
+.address-links li i{
+  font-size: 16px;  
+    padding-right: 8px;
+  color: #82074a;
+
+}
+.address-links li i:nth-child(1){
+  padding-top: 9px;
+}
+.address-links .address1{
+  font-weight: 500;
+    font-size: 15px;
+  display: flex;
+  color: white; 
+}
+.address-links{
+      line-height: 32px;
+    color: #777777;
+}
+
+.copy-right-sec{
+  padding: 1.8rem;
+    background: #333333;
+    color: #fff;
+    text-align: center;
+}
+.copy-right-sec a{
+  color: #fcd462;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
+
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************scroll buttons starts**************************/
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background: #808080;
+  padding: 15px;
+  border-radius:50%;
+
+
+}
+#myBtn:hover{
+  background: #606060;
+}
+
+/*********************scroll buttons ends**************************/
+
+
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+
+  .portfolio .btn {
+  margin-top: 15px !important;       
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+}
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .portfolio .btn {
+  margin-top: 15px !important;       
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+}
+
+
+
+
+
+/******media queries*************/
+@media(max-width: 768px){
+ 
+  .footerdiv{
+    margin: 30px 0;
+  }
+ 
+  }
+
+
+
+
